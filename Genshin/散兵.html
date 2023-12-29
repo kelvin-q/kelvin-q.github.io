@@ -18,10 +18,17 @@
     }
   </style>
   <script>
-    // push audios into body
+    function push_audio() {
+      // Push All Audios
+      console.log("PUSH");
+    }
+    function play_all() {
+      // Play All Audios
+      console.log("PLAY");
+    }
   </script>
 </head>
-<body>
+<body onload="push_audio()">
   <h1 style="font-size: 80px;">Genshin/散兵.html</h1>
   <h2 style="font-size: 50px" onclick="play_all();">Play All Audios</h2>
   <h2 style="font-size: 50px"><a style="color: white;" src="">Download All Audios (.zip)</a></h2>
