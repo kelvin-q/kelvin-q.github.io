@@ -7,30 +7,25 @@
       font-family: Consolas, monospace;
       background-color: black;
       color: white;
-      margin: 0;
-      padding: 0;
-    }
-    h1 {
-      font-size: 80px;
-    }
-    h2 {
-      font-size: 50px;
+      margin: 0px;
+      padding: 0px;
     }
   </style>
   <script>
     function push_audio() {
       // Push All Audios
-      console.log("PUSH");
+      alert("PUSH");
     }
     function play_all() {
       // Play All Audios
-      console.log("PLAY");
+      alert("PLAY");
+      
     }
   </script>
 </head>
 <body onload="push_audio()">
   <h1 style="font-size: 80px;">Genshin/散兵.html</h1>
-  <h2 style="font-size: 50px" onclick="play_all();">Play All Audios</h2>
-  <h2 style="font-size: 50px"><a style="color: white;" src="">Download All Audios (.zip)</a></h2>
+  <button onclick="play_all();"><h2 style="font-size: 50px">Play All Audios</h2></button>
+  <button onclick="window.location.href='www.github.com'"><h2 style="font-size: 50px">Download All Audios (.zip)</h2></button>
 </body>
 </html>
